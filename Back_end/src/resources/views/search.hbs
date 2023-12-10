@@ -1,0 +1,19 @@
+<div class="search-from">
+    <form method="post" action="/dataSave">
+        <div class="form-group">
+            <label for="exampleInputEmail1">Tìm kiếm</label>
+            <input type="text" name="fullname" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="Nhập tên...">
+            <select name="gender" id="">
+                <option value="">--chọn giới tính--</option>
+                <option value="boy">nam</option>
+                <option value="girl">nữ</option>
+            </select>
+            <input type="text" name="height" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="Nhập chiều cao...">
+            <input type="text" name="hb" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="Nhập loại học bổng...">
+        </div>
+        <button onclick="fetchData()" type="submit" class="btn btn-primary">Tìm kiếm</button>
+    </form>
+</div>
